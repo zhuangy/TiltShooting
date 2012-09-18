@@ -28,7 +28,7 @@
     //temp ,  fass acceleration to gameLayer??
     [[[MainScene ShowScene] getChildByTag:1] checkMove:acceleration ];
     
-    /*
+    /*test git hub changes
      #define  kPlayerSpeed 1;
      CCSprite *aim=[[self getChildByTag:1] aimCross];
      float currentX = aim.position.x;
