@@ -4,7 +4,7 @@
 //
 //  Created by yan zhuang on 12-9-14.
 //  Copyright __MyCompanyName__ 2012年. All rights reserved.
-//
+///Users/yanzhuang/Desktop/iphone_test/TiltShooting/TiltShooting/AppDelegate.m
 
 
 // Import the interfaces
@@ -18,7 +18,7 @@
 @implementation IntroLayer
 
 // Helper class method that creates a Scene with the HelloWorldLayer as the only child.
-+(CCScene *) scene
+/*+(CCScene *) scene
 {
 	// 'scene' is an autorelease object.
 	CCScene *scene = [CCScene node];
@@ -32,8 +32,9 @@
 	// return the scene
 	return scene;
 }
+ */
 
-// 
+// For menu
 -(void) onEnter
 {
 	[super onEnter];
@@ -60,6 +61,6 @@
 
 -(void) makeTransition:(ccTime)dt
 {
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] withColor:ccWHITE]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[MenuScene ShowScene] withColor:ccWHITE]];
 }
 @end
